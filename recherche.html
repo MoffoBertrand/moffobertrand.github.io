@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=7">
+<link rel="stylesheet" href="style.css?v=8">
 <script>try{var l=localStorage.getItem('lang');if(l)document.documentElement.lang=l;var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
 </head>
 <body>
@@ -41,6 +41,7 @@
 <main class="wrap">
   <section id="recherche">
     <h1 class="ptitle"><span data-l="fr">Thèmes de recherche</span><span data-l="en">Research topics</span></h1>
+    <p class="jump"><a href="#logiciels"><span data-l="fr">Logiciels et code source</span><span data-l="en">Software and source code</span> ↓</a> · <a href="publications.html"><span data-l="fr">Publications</span><span data-l="en">Publications</span> →</a></p>
     <div class="grid">
       <div class="card">
         <h3><span data-l="fr">Interfaces de mesure DCM</span><span data-l="en">DCM measurement interfaces</span></h3>
@@ -73,6 +74,12 @@
     <h2><span data-l="fr">Logiciels</span><span data-l="en">Software</span></h2>
     <p style="color:var(--muted);font-size:15px;margin-top:-6px"><span data-l="fr">Code source libre sur</span><span data-l="en">Open-source code on</span> <a href="https://github.com/MoffoBertrand">GitHub</a>.</p>
     <div class="grid">
+      <a class="card" href="https://github.com/MoffoBertrand/micropython-drivers">
+        <h3>micropython-drivers</h3>
+        <p data-l="fr">Collection de pilotes MicroPython pour ESP32-S3, en versions synchrone et asyncio, avec exemples pédagogiques : OLED RGB SSD1351 et SSD1357, radar mmWave HLK-LD2420, LoRa SX1262 (LILYGO T3-S3), capteurs du Waveshare Pico-Sensor-Kit-B.</p>
+        <p data-l="en">Collection of MicroPython drivers for the ESP32-S3, in synchronous and asyncio versions, with teaching examples: SSD1351 and SSD1357 RGB OLEDs, HLK-LD2420 mmWave radar, SX1262 LoRa (LILYGO T3-S3), Waveshare Pico-Sensor-Kit-B sensors.</p>
+        <div class="tags"><span>MicroPython</span><span>ESP32-S3</span><span>OLED</span><span>LoRa</span><span><span data-l="fr">Capteurs</span><span data-l="en">Sensors</span></span></div>
+      </a>
       <a class="card" href="https://github.com/MoffoBertrand/lilygo-t-display-s3-amoled-micropython">
         <h3>lilygo-t-display-s3-amoled-micropython</h3>
         <p data-l="fr">Pilote MicroPython QSPI pour l'écran AMOLED LILYGO T-Display S3 (ESP32-S3, contrôleur RM67162, tactile CST816S).</p>

@@ -130,3 +130,4 @@ ol.entries{list-style:none;margin:0;padding:0;display:grid;gap:10px}
 .phd{display:grid;gap:12px}
 .card.feature.done{border-left-color:var(--muted)}
 .card.feature.done .b-phd{background:var(--tag);color:var(--text)}
+p.jump{margin:-10px 0 18px;font-size:15px}
